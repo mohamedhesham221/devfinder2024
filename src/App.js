@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import DataBody from "./components/body/DataBody";
+import Header from "./components/header/Header";
+import SearchForm from "./components/search/SearchForm";
+import { myContext } from "./context/myContext";
+import { useState } from "react";
+import useFetch from "./hooks/useFetch";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [isDark, setIsDark]= useState(false)
+  const {data, error, loading, fetchData} = useFetch()
+
+    return (
+      <myContext.Provider value={{
+        isDark,
+        setIsDark,
+        data,
+        error,
+        loading,
+        fetchData}}>
+    <div className={`App ${isDark? "dark-mode_app": ""}`}>
+        <Header />
+        <SearchForm />
+        <DataBody />
     </div>
+      </myContext.Provider>
   );
 }
 
