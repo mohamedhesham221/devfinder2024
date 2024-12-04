@@ -89,6 +89,6 @@ What tools/software are required to run the project?
 
 Muhammad Hisham
 
-- Email: [![Email Badge](https://img.shields.io/badge/Email-muhammedheshamm2%40gmail.com-brightgreen)](mailto:muhammedheshamm2@gmail.com)
-- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Muhammad%20Hisham-blue)](https://www.linkedin.com/in/muhammad-hisham-23544b253/)
-- Portfolio: [![Portfolio Badge](https://img.shields.io/badge/Portfolio-Muhammad%20Hisham-green)](https://muhammadhisham2024.netlify.app/)
+- [![Email Badge](https://img.shields.io/badge/Email-muhammedheshamm2%40gmail.com-brightgreen)](mailto:muhammedheshamm2@gmail.com)
+- [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Muhammad%20Hisham-blue)](https://www.linkedin.com/in/muhammad-hisham-23544b253/)
+- [![Portfolio Badge](https://img.shields.io/badge/Portfolio-Muhammad%20Hisham-green)](https://muhammadhisham2024.netlify.app/)
