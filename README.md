@@ -23,11 +23,11 @@
 
 ### Screenshots
 
-#### Dark Mode
+#### Light Mode
 
 ![Light Mode](./src//assets//screenshots1.png)
 
-#### Light Mode
+#### Dark Mode
 
 ![Dark Mode](./src//assets//screenshots2.png)
 
