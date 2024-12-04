@@ -6,23 +6,26 @@ import { useState } from "react";
 import useFetch from "./hooks/useFetch";
 
 function App() {
-  const [isDark, setIsDark]= useState(false)
-  const {data, error, loading, fetchData} = useFetch()
+  const [isDark, setIsDark] = useState(false)
+  const { data, error, loading, fetchData } = useFetch()
 
-    return (
-      <myContext.Provider value={{
-        isDark,
-        setIsDark,
-        data,
-        error,
-        loading,
-        fetchData}}>
-    <div className={`App ${isDark? "dark-mode_app": ""}`}>
-        <Header />
-        <SearchForm />
-        <DataBody />
-    </div>
-      </myContext.Provider>
+  return (
+    <myContext.Provider value={{
+      isDark,
+      setIsDark,
+      data,
+      error,
+      loading,
+      fetchData
+    }}>
+      <main>
+        <div className={`App ${isDark ? "dark-mode_app" : ""}`}>
+          <Header />
+          <SearchForm />
+          <DataBody />
+        </div>
+      </main>
+    </myContext.Provider>
   );
 }
 

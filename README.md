@@ -25,11 +25,11 @@
 
 #### Dark Mode
 
-![Dark Mode](./src//assets//screenshot1.png)
+![Light Mode](./src//assets//screenshots1.png)
 
 #### Light Mode
 
-![Light Mode](./src//assets//screenshot2.png)
+![Dark Mode](./src//assets//screenshots2.png)
 
 ### Live
 
