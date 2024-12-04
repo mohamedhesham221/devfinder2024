@@ -1,7 +1,5 @@
 # **Devfinder**
 
----
-
 ## **Table of Contents**
 
 - [About the Project](#about-the-project)  
@@ -23,15 +21,28 @@
 
 ## **Demo**  
 
-Include screenshots or a link to the live version of the project (if applicable).
+### Screenshots
+
+#### Dark Mode
+
+![Dark Mode](./src//assets//screenshot1.png)
+
+#### Light Mode
+
+![Light Mode](./src//assets//screenshot2.png)
+
+### Live
+
+[Preview](https://devfinder2024.vercel.app/)
 
 ---
 
 ## **Features**  
 
-- Feature 1  
-- Feature 2  
-- Feature 3  
+- Search GitHub profiles by username  
+- View profile details, including bio, location, and public repositories  
+- Responsive design for all devices  
+- Dark and light theme modes  
 
 ---
 
@@ -41,8 +52,6 @@ List the main technologies, frameworks, or libraries used in the project.
 Example:  
 
 - ReactJS  
-- Tailwind CSS  
-- Node.js  
 
 ---
 
@@ -62,25 +71,25 @@ What tools/software are required to run the project?
 
 #### Clone the repository
 
-git clone <https://github.com/username/repository.git>
+`git clone <https://github.com/mohamedhesham221/devfinder2024>`
 
 #### Navigate to the project directory
 
-cd repository
+`cd repository`
 
 #### Install dependencies
 
-npm install
+`npm install`
 
 #### Start the development server
 
-npm start
+`npm start`
 
 ## Contact
 
 Muhammad Hisham
 
-📄 Portfolio: <https://muhammadhisham2024.netlify.app/>
-🔗 LinkedIn: <https://www.linkedin.com/in/muhammad-hisham-23544b253/>
-🐙 GitHub: <https://github.com/mohamedhesham221>
-📧 Email: <muhammedheshamm2@gmail.com>
+- 📄 Portfolio: <https://muhammadhisham2024.netlify.app/>
+- 🔗 LinkedIn: <https://www.linkedin.com/in/muhammad-hisham-23544b253/>
+- 🐙 GitHub: <https://github.com/mohamedhesham221>
+- 📧 Email: <muhammedheshamm2@gmail.com>
