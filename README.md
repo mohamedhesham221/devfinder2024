@@ -1,6 +1,4 @@
-# **Project Title**
-
-> A brief description of what your project does and who it’s for.
+# **Devfinder**
 
 ---
 
@@ -19,7 +17,7 @@
 
 ## **About the Project**  
 
-Explain the purpose of your project, its background, or the problem it solves.
+>DevFinder is a responsive ReactJS application that helps users search for GitHub profiles by username. It fetches and displays profile details such as repositories, followers, following count, and other key information. The app features a clean, user-friendly interface, making it easy to explore developer profiles on GitHub.
 
 ---
 

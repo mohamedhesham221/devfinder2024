@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function useFetch ()  {
+export default function useFetch() {
   const [data, setDate] = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
@@ -10,7 +10,9 @@ export default function useFetch ()  {
       setError("No URL provided!!")
       return
     }
-    setLoading(true)
+    setTimeout(() => {
+      setLoading(true)
+    }, 1500)
     setError(null)
     try {
       const response = await fetch(url)
@@ -25,5 +27,5 @@ export default function useFetch ()  {
       setLoading(false)
     }
   }
-return {data, loading, error, fetchData}
+  return { data, loading, error, fetchData }
 }
