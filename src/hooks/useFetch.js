@@ -10,9 +10,7 @@ export default function useFetch() {
       setError("No URL provided!!")
       return
     }
-    setTimeout(() => {
       setLoading(true)
-    }, 1500)
     setError(null)
     try {
       const response = await fetch(url)
